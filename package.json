@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js",
-    "exec": "npx puppeteer browsers install chrome"
+    "server": "npx puppeteer browsers install chrome && nodemon index.js"
   },
   "keywords": [],
   "author": "",
